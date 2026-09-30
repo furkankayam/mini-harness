@@ -195,3 +195,4 @@ Claude Code, OpenCode, Cursor Agent, Aider ve Devin gibi araçlar birer **Agenti
 
 ---
 
+[Örnek Mini Harness Projesi](https://github.com/furkankayam/mini-harness)
