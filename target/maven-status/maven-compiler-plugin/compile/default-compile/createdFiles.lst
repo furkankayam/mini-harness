@@ -1,0 +1,10 @@
+com\furkan\harness\guard\GuardedToolCallback.class
+com\furkan\harness\guard\PermissionGate.class
+com\furkan\harness\HarnessRunner.class
+com\furkan\harness\AgentLoop.class
+com\furkan\harness\tools\WorkspaceTools.class
+com\furkan\harness\HarnessProperties.class
+com\furkan\harness\console\ConsoleIO.class
+com\furkan\harness\guard\PermissionGate$Decision.class
+com\furkan\harness\MiniHarnessApplication.class
+com\furkan\harness\context\ContextManager.class

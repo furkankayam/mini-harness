@@ -1,0 +1,26 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+  ai:
+    anthropic:
+      api-key: <API_KEY>
+      chat:
+        options:
+          model: claude-sonnet-4-5
+          max-tokens: 4096
+          temperature: 0.2
+
+# Harness ayarları — sunumda bunları değiştirip farkı göstermek iyi bir demo olur
+harness:
+  workspace: ./workspace          # Sandbox: agent bu klasörün dışına çıkamaz
+  max-iterations: 15              # Sonsuz döngü koruması
+  keep-recent-tool-results: 3     # Context: son N tool çıktısı tam kalır, eskiler kırpılır
+  max-tool-output-chars: 4000     # Tek bir tool çıktısının context'e girebilecek max boyutu
+  command-timeout-seconds: 30
+  auto-approve: false             # true: yazma/komut için onay sorma (YOLO modu)
+
+logging:
+  level:
+    root: warn
+    com.furkan.harness: info
